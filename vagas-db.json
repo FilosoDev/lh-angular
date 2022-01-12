@@ -1,0 +1,22 @@
+{
+	"vagas": [{
+			"id": 1,
+			"nome": "Desenvolvedor Front-End",
+			"foto": "foto1.jpg",
+			"salario": 5000
+		},
+
+		{
+			"id": 2,
+			"nome": "Desenvolvedor Spring Boot",
+			"foto": "foto2.jpg",
+			"salario": 7000
+		},
+		{
+			"id": 3,
+			"nome": "Desenvolvedor Angular",
+			"foto": "foto3.jpg",
+			"salario": 10000
+		}
+	]
+}
