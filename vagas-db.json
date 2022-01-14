@@ -1,25 +1,25 @@
 {
-	"vagas": [{
-			"id": 1,
-			"nome": "Desenvolvedor Front-End",
-			"foto": "foto1.jpg",
-			"descricao" : "Desenvolver perfumaria...",
-			"salario": 5000
-		},
-
-		{
-			"id": 2,
-			"nome": "Desenvolvedor Spring Boot",
-			"foto": "foto2.jpg",
-			"descricao" : "Desenvolver Spring...",
-			"salario": 7000
-		},
-		{
-			"id": 3,
-			"nome": "Desenvolvedor Angular",
-			"foto": "foto3.jpg",
-			"descricao" : "Desenvolver Angular...",
-			"salario": 10000
-		}
-	]
+  "vagas": [
+    {
+      "id": 2,
+      "nome": "Desenvolvedor Spring Boot",
+      "foto": "foto2.jpg",
+      "descricao": "Desenvolver Spring...",
+      "salario": 7000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Angular",
+      "foto": "foto3.jpg",
+      "descricao": "Desenvolver Angular...",
+      "salario": 10000
+    },
+    {
+      "id": "1",
+      "nome": "1",
+      "foto": "foto1.jpg",
+      "descricao": "1",
+      "salario": "01"
+    }
+  ]
 }

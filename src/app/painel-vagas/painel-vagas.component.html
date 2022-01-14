@@ -1,1 +1,34 @@
-<p>painel-vagas works!</p>
+<h2>Cadastrar</h2>
+<form>
+  <label>Id</label><input type="text" name="id" [(ngModel)]="vaga.id"><br>
+  <label>Nome</label><input type="text" name="nome" [(ngModel)]="vaga.nome"><br>
+  <label>Foto</label><input type="text" name="foto" [(ngModel)]="vaga.foto"><br>
+  <label>Descrição</label><input type="text" name="descricao" [(ngModel)]="vaga.descricao"><br>
+  <label>Salário</label><input type="text" name="salario" [(ngModel)]="vaga.salario"><br>
+  <button type="button" (click)="cadastrar()">Cadastrar Vaga</button>
+  <button type="button" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
+  <button type="button" (click)="excluir(vaga.id)">Excluir Vaga</button>
+</form>
+
+
+
+<section class="lista-vagas">
+
+  <div *ngFor="let vaga of vagas">
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets\img\vagas\{{vaga.foto}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Código da vaga: {{vaga.id}}</h5>
+        <h5 class="card-title">Vaga: {{vaga.nome}}</h5>
+        <p class="card-text">Descrição: {{vaga.descricao}}</p>
+        <p class="card-text">Salário: R$ {{vaga.salario}}</p>
+
+        <button type="button" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
+        <button type="button" (click)="excluir(vaga.id)">Excluir Vaga</button>
+      </div>
+    </div>
+
+  </div>
+
+</section>
